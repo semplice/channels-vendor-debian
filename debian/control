@@ -1,0 +1,19 @@
+Source: channels-vendor-debian
+Section: admin
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://semplice-linux.org
+Vcs-Git: https://github.com/semplice/channels-vendor-debian.git
+Vcs-Browser: https://github.com/semplice/channels-vendor-debian
+
+Package: channels-vendor-debian
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: channels
+Description: Channel support -- Debian vendor
+ channels is a tool that permits to easily manage update channels on
+ Semplice.
+ .
+ This package contains the channels and providers for the Debian vendor.
