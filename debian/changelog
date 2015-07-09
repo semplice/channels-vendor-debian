@@ -1,3 +1,9 @@
+channels-vendor-debian (2) unstable; urgency=medium
+
+  * [jessie] Specify the repository label.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 09 Jul 2015 16:22:00 +0200
+
 channels-vendor-debian (1) unstable; urgency=low
 
   * Initial release
