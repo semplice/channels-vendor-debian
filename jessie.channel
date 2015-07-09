@@ -6,17 +6,20 @@ provides = base.provider
 [main]
 default_mirror = http://ftp.debian.org/debian/
 origin = Debian
+label = Debian
 codename = jessie
 components = main contrib non-free
 
 [updates]
 default_mirror = http://ftp.debian.org/debian/
 origin = Debian
+label = Debian
 codename = jessie-updates
 components = main contrib non-free
 
 [security]
 default_mirror = http://security.debian.org/
 origin = Debian
+label = Debian-Security
 codename = jessie
 components = updates/main updates/contrib updates/non-free
