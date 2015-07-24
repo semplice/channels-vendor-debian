@@ -3,7 +3,7 @@ name = Debian experimental
 description = Debian experimental
 depends = sid
 
-[unstable]
+[experimental]
 default_mirror = http://ftp.debian.org/debian/
 origin = Debian
 codename = experimental
