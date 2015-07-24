@@ -1,0 +1,10 @@
+[channel]
+name = Debian experimental
+description = Debian experimental
+depends = sid
+
+[unstable]
+default_mirror = http://ftp.debian.org/debian/
+origin = Debian
+codename = experimental
+components = main contrib non-free
